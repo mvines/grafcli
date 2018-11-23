@@ -27,7 +27,7 @@ setup(name='grafcli',
       url='https://github.com/m110/grafcli',
       packages=find_packages(exclude=['tests']),
       scripts=['scripts/grafcli'],
-      data_files=[('/etc/grafcli', ['grafcli.conf.example'])],
+      data_files=[('etc/grafcli', ['grafcli.conf.example'])],
       install_requires=['climb>=0.3.2', 'pygments', 'requests'],
       classifiers=[
           'Development Status :: 3 - Alpha',
